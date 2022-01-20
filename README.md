@@ -16,6 +16,9 @@ For example:
 - You support us with more than 200 GLMR - 1 number
 - You have delegated more 50 GLMR on last 7 days (before sunday lottery time): 1 number
 
+# Lottery Winner
+The Lottery is totaly transparent and deterministic, so you can verify the results. The winner is defined by Math, so no one can cheat.
+
 Go now and delegate to EarnX to have a chance !!!
 
 All Results will be published here and announced on Moonbeam Discord #General channel. 
@@ -29,5 +32,20 @@ Week 3 - on Sunday, February 06th, 2022 (waiting)
 
 Week 4 - on Sunday, February 13th, 2022 (waiintg)
 
-# Lottery Technical Details
+( Maybe others Prize Week will come if this campaign is successful )
 
+# Lottery Technical Details
+Each participant on the lottery can have 1 , 2 or 3 numbers (chances) calculated as follow:
+We starting taking the last X bytes (X = 4 on start - 32 bits) for address or block hash
+- Number1 is the last X bytes of deletegator address (using hexadecimal string)
+- Number2 is the last X bytes of sha256(number1 using hexadecimal string)
+- Number3 is the last X bytes of sha256(number2 using hexadecimal string)
+- Lucky number is the last X bytes of first network block hash (using hexadecimal string) after Sunday 0h UTC. 
+The winner is who have the closer number of Lycky Number.
+If there is any number collision when generating the participantes numbers, we increase X by 1 and repeat all the calculations again.
+
+
+
+
+
+ 
