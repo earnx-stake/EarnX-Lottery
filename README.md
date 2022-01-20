@@ -35,8 +35,8 @@ Week 4 - on Sunday, February 13th, 2022 (waiintg)
 ( Maybe others Prize Week will come if this campaign is successful )
 
 # Lottery Technical Details
-Each participant on the lottery can have 1 , 2 or 3 numbers (chances) calculated as follow:
-We starting taking the last X bytes (X = 4 on start - 32 bits) for address or block hash
+Each participant on the lottery can have 1 , 2 or 3 numbers (chances) calculated as follow:<BR>
+We starting assuming we will use numbers with X bytes (X = 4 on first try, so 32 bits numbers)
 - Number1 is the last X bytes of deletegator address (using hexadecimal string)
 - Number2 is the last X bytes of sha256(number1 using hexadecimal string)
 - Number3 is the last X bytes of sha256(number2 using hexadecimal string)
