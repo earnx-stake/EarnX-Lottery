@@ -1,8 +1,8 @@
 # Earnx Lottery on Moonbeam
-Hi Moonbeam Community, see your change to win 50 GLMR !!! 
+Hi Moonbeam Community, see how you can win 50 GLMR prize !!! 
 
 We decided to change our lottery schema. It not necessary to use Earnx Telegram Bot anymore and now all of ours delegators have a change to win the lottery. 
-For the next 4 weeks, we will run a lottery at Sunday 0h UTC given 50 GLMR for one of yours delegators.
+For the next 4 weeks, we will run a lottery at Sunday 0h UTC given 50 GLMR for one of our delegators.
 
 # Lottery Rules
 - We will take an snapshot of all deletagors on the first network block after Sunday 0h UTC.
@@ -18,9 +18,9 @@ For example:
 
 Go now and delegate to EarnX to have a chance !!!
 
-All Results will be publish here and announced on Moonbeam Discord #General channel. 
+All Results will be published here and announced on Moonbeam Discord #General channel. 
 
-# Next Lottery runs 
+# Next Lottery Runs 
 Week 1 - on Sunday, January 23th, 2022 (open)
 
 Week 2 - on Sunday, January 30th, 2022 (waiting)
