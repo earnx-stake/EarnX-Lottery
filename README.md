@@ -6,7 +6,7 @@ For the next 4 weeks, we will run a lottery at Sunday 0h UTC given 50 GLMR for o
 
 # Lottery Rules
 - We will take an snapshot of all deletagors on the first network block after Sunday 0h UTC.
-- You receive a number derivade from your address representing a chance in the loterry.
+- You receive a number derivaded from your address representing a chance in the loterry.
 - If you have delegated >= 200 GLMR, so you get another number increasing you chance.
 - If you have made an aditional delegation >= 50 GLMR during the week (7 days before the sunday snapshot), you receive another number.
 
@@ -19,7 +19,7 @@ For example:
 # Lottery Winner
 The Lottery is totaly transparent and deterministic, you can verify the results. The winner is defined by Math, so no one can cheat.
 
-Go now and delegate to EarnX to have a chance !!!
+# Go now and delegate to EarnX to have a chance !!!
 
 All Results will be published here and announced on Moonbeam Discord #General channel. 
 
@@ -30,7 +30,7 @@ Week 2 - on Sunday, January 30th, 2022 (waiting)
 
 Week 3 - on Sunday, February 06th, 2022 (waiting)
 
-Week 4 - on Sunday, February 13th, 2022 (waiintg)
+Week 4 - on Sunday, February 13th, 2022 (waiting)
 
 ( Maybe others Prize Week will come if this campaign is successful )
 
@@ -42,7 +42,7 @@ We starting assuming we will use numbers with X bytes (X = 4 on first try, so 32
 - Number3 is the last X bytes of sha256(number2 using hexadecimal string)
 - Lucky number is the last X bytes of first network block hash (using hexadecimal string) after Sunday 0h UTC. 
 The winner is who have the closer number of Lucky Number.
-If there is any number collision when generating participantes numbers, we increase X by 1 and repeat all the calculations again.
+If there is any number collision when generating participants numbers, we increase X by 1 and repeat all the calculations again.
 
 
 
