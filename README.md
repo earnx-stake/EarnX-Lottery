@@ -6,7 +6,7 @@ For the next 4 weeks, we will run a lottery at Sunday 0h UTC given 50 GLMR for o
 
 # Lottery Rules
 - We will take an snapshot of all deletagors on the first network block after Sunday 0h UTC.
-- You receive a number derivaded from your address representing a chance in the loterry.
+- You receive a number generated from your address representing a chance in the loterry.
 - If you have delegated >= 200 GLMR, so you get another number increasing you chance.
 - If you have made an aditional delegation >= 50 GLMR during the week (7 days before the sunday snapshot), you receive another number.
 
@@ -41,7 +41,7 @@ We starting assuming we will use numbers with X bytes (X = 4 on first try, so 32
 - Number2 is the last X bytes of sha256(number1 using hexadecimal string)
 - Number3 is the last X bytes of sha256(number2 using hexadecimal string)
 - Lucky number is the last X bytes of first network block hash (using hexadecimal string) after Sunday 0h UTC. 
-The winner is who have the closer number of Lucky Number.
+The winner is who have the closest number of Lucky Number.
 If there is any number collision when generating participants numbers, we increase X by 1 and repeat all the calculations again.
 
 
