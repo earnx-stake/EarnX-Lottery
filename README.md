@@ -17,7 +17,7 @@ For example:
 - You have delegated more 50 GLMR on last 7 days (before sunday lottery time): 1 number
 
 # Lottery Winner
-The Lottery is totaly transparent and deterministic, so you can verify the results. The winner is defined by Math, so no one can cheat.
+The Lottery is totaly transparent and deterministic, you can verify the results. The winner is defined by Math, so no one can cheat.
 
 Go now and delegate to EarnX to have a chance !!!
 
@@ -41,8 +41,8 @@ We starting assuming we will use numbers with X bytes (X = 4 on first try, so 32
 - Number2 is the last X bytes of sha256(number1 using hexadecimal string)
 - Number3 is the last X bytes of sha256(number2 using hexadecimal string)
 - Lucky number is the last X bytes of first network block hash (using hexadecimal string) after Sunday 0h UTC. 
-The winner is who have the closer number of Lycky Number.
-If there is any number collision when generating the participantes numbers, we increase X by 1 and repeat all the calculations again.
+The winner is who have the closer number of Lucky Number.
+If there is any number collision when generating participantes numbers, we increase X by 1 and repeat all the calculations again.
 
 
 
