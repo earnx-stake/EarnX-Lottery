@@ -30,7 +30,7 @@ Result https://github.com/earnx-stake/EarnX-Lottery/blob/main/Lottery-2022-01-23
 Week 2 - on Sunday, January 30th, 2022 (closed) - Winner address: 0x...77cCFD29 <br>
 Result https://github.com/earnx-stake/EarnX-Lottery/blob/main/Lottery-2022-01-30.txt
 
-Week 3 - on Sunday, February 06th, 2022 (closed) - Winner address: 0x...148d3fC5
+Week 3 - on Sunday, February 06th, 2022 (closed) - Winner address: 0x...148d3fC5 <br>
 Result https://github.com/earnx-stake/EarnX-Lottery/blob/main/Lottery-2022-02-06.txt
 
 Week 4 - on Sunday, February 13th, 2022 (waiting)
